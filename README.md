@@ -1,0 +1,2 @@
+# vftplug
+vim filetype plugin
