@@ -1,2 +1,2 @@
 # vftplug
-vim filetype plugin
+vim 文件类型插件合集

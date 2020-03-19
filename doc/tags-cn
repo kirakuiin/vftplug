@@ -1,0 +1,10 @@
+vftplug	vim-ftplugin.cnx	/*vftplug*
+vftplug-commands	vim-ftplugin.cnx	/*vftplug-commands*
+vftplug-config	vim-ftplugin.cnx	/*vftplug-config*
+vftplug-content	vim-ftplugin.cnx	/*vftplug-content*
+vftplug-intro	vim-ftplugin.cnx	/*vftplug-intro*
+vftplug-mappings	vim-ftplugin.cnx	/*vftplug-mappings*
+vftplug-options	vim-ftplugin.cnx	/*vftplug-options*
+vftplug-plugins	vim-ftplugin.cnx	/*vftplug-plugins*
+vftplug-requirements	vim-ftplugin.cnx	/*vftplug-requirements*
+vim-ftplugin.cnx	vim-ftplugin.cnx	/*vim-ftplugin.cnx*
