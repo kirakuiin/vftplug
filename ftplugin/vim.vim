@@ -1,4 +1,4 @@
-" python plugin
+" vim plugin
 
 " boilerplate {{{
 if exists("b:did_ftplugin")
@@ -6,14 +6,14 @@ if exists("b:did_ftplugin")
 endif
 let b:did_ftplugin = 1
 
-if exists('g:loaded_vftplug_python')
+if exists('g:loaded_vftplug_vim')
     finish
 endif
-let g:loaded_vftplug_python = 1
+let g:loaded_vftplug_vim = 1
 " }}}
 
 " check python is enable or not {{{
-if !exists('g:vftplug_enable_python')
+if !exists('g:vftplug_enable_vim')
     finish
 endif
 " }}}
@@ -31,9 +31,8 @@ setlocal expandtab
 " util func {{{
 " generate source code header boilerplate {{{
 function! s:Vftplug_gen_header()
-    let comment_char = '#'
-    let prefix = '-*- encoding: utf-8 -*-'
-    call util#vftplug_gen_header(comment_char, prefix)
+    let comment_char = '"'
+    call util#vftplug_gen_header(comment_char)
 endfunction
 " }}}
 
