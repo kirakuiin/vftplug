@@ -23,11 +23,13 @@ endfor
 " }}}
 
 " constant definition {{{
-let g:vftplug_header_info = {
-    \'Author' : 'Anonymous',
-    \'Version' : '1.0',
-    \'License' : 'This file is placed in the public domain.',
-    \}
+if !exists('g:vftplug_header_info')
+    let g:vftplug_header_info = {
+                \'Author' : 'Anonymous',
+                \'Version' : '1.0',
+                \'License' : 'This file is placed in the public domain.',
+                \}
+endif
 " }}}
 
 " map {{{
