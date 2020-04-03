@@ -34,7 +34,7 @@ endif
 
 " map {{{
 if !hasmapto('<Plug>VftpGeneHeader')
-    map <unique> <leader>gh <Plug>VftpGeneHeader
+    map <unique> <localleader>gh <Plug>VftpGeneHeader
 endif
 " }}}
 
