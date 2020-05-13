@@ -32,7 +32,7 @@ setlocal expandtab
 " generate source code header boilerplate {{{
 function! s:Vftplug_gen_header()
     let comment_char = '//'
-    call util#vftplug_gen_header(comment_char, prefix)
+    call util#vftplug_gen_header(comment_char)
 endfunction
 " }}}
 
