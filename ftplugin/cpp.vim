@@ -1,4 +1,4 @@
-" vim plugin
+" cpp plugin
 
 " boilerplate {{{
 if exists("b:did_ftplugin")
@@ -6,14 +6,14 @@ if exists("b:did_ftplugin")
 endif
 let b:did_ftplugin = 1
 
-if exists('g:loaded_vftplug_vim')
+if exists('g:loaded_vftplug_cpp')
     finish
 endif
-let g:loaded_vftplug_vim = 1
+let g:loaded_vftplug_cpp= 1
 " }}}
 
-" check vim is enable or not {{{
-if !exists('g:vftplug_enable_vim')
+" check cpp is enable or not {{{
+if !exists('g:vftplug_enable_cpp')
     finish
 endif
 " }}}
@@ -31,8 +31,8 @@ setlocal expandtab
 " util func {{{
 " generate source code header boilerplate {{{
 function! s:Vftplug_gen_header()
-    let comment_char = '"'
-    call util#vftplug_gen_header(comment_char)
+    let comment_char = '//'
+    call util#vftplug_gen_header(comment_char, prefix)
 endfunction
 " }}}
 

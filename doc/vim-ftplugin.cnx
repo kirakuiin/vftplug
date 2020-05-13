@@ -46,7 +46,7 @@
     let g:loaded_vftplug = 1
 <
                                                      *'vftplug_support_lang'*
-默认值: ['vim', 'python']
+默认值: ['vim', 'python', 'cpp']
 使用该选项来选择支持那些文件类型的便利功能, 如仅支持python: >
     let g:vftplug_support_lang = ['python']
 <

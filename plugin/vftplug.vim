@@ -14,7 +14,7 @@ set cpo&vim
 
 " set support lang {{{
 if !exists('g:vftplug_support_lang')
-    let g:vftplug_support_lang = ['python', 'vim']
+    let g:vftplug_support_lang = ['python', 'vim', 'cpp']
 endif
 
 for suffix in g:vftplug_support_lang
