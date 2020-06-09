@@ -7,7 +7,7 @@ let g:loaded_vftplug_autoload = 1
 " UTILFUNC: {{{
 " =============================================================================
 " generate source code header boilerplate {{{
-function util#vftplug_gen_header(comment_char, prefix='', suffix='')
+function util#vftplug_gen_header(comment_char, prefix, suffix)
     let header_info = ''
     if a:prefix !=# ''
         let header_info = header_info. a:comment_char. ' '. a:prefix. "\n"

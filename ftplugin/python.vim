@@ -33,14 +33,14 @@ setlocal expandtab
 function! s:Vftplug_gen_header()
     let comment_char = '#'
     let prefix = '-*- encoding: utf-8 -*-'
-    call util#vftplug_gen_header(comment_char, prefix)
+    call util#vftplug_gen_header(comment_char, prefix, '')
 endfunction
 " }}}
 
 " }}}
 
 " map {{{
-noremap <unique> <Plug>VftpGeneHeader :call <SID>Vftplug_gen_header()<CR>
+noremap <unique> <buffer> <Plug>VftpGeneHeader :call <SID>Vftplug_gen_header()<CR>
 " }}}
 
 " vim:foldmethod=marker:foldcolumn=1:ts=4:sw=4

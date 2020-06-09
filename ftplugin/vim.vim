@@ -32,14 +32,14 @@ setlocal expandtab
 " generate source code header boilerplate {{{
 function! s:Vftplug_gen_header()
     let comment_char = '"'
-    call util#vftplug_gen_header(comment_char)
+    call util#vftplug_gen_header(comment_char, '', '')
 endfunction
 " }}}
 
 " }}}
 
 " map {{{
-noremap <unique> <Plug>VftpGeneHeader :call <SID>Vftplug_gen_header()<CR>
+noremap <unique> <buffer> <Plug>VftpGeneHeader :call <SID>Vftplug_gen_header()<CR>
 " }}}
 
 " vim:foldmethod=marker:foldcolumn=1:ts=4:sw=4
