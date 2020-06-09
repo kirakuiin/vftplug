@@ -65,8 +65,8 @@ endfunction
 " }}}
 
 " map {{{
-noremap <unique> <buffer> <Plug>VftpGeneHeader :call <SID>Vftplug_gen_header()<CR>
-noremap <unique> <buffer> <Plug>VftpGeneGuard  :call <SID>Vftplug_gen_guard()<CR>
+noremap <unique> <Plug>VftpGeneHeader :call <SID>Vftplug_gen_header()<CR>
+noremap <unique> <Plug>VftpGeneGuard  :call <SID>Vftplug_gen_guard()<CR>
 " }}}
 
 " vim:foldmethod=marker:foldcolumn=1:ts=4:sw=4

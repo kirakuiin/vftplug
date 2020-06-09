@@ -33,6 +33,7 @@ endif
 " }}}
 
 " map {{{
+" TODO(wang.zhuowei): 已知同时打开多个不同文件类型的缓冲会导致命令失效
 if !hasmapto('<Plug>VftpGeneHeader')
     map <unique> <localleader>gh <Plug>VftpGeneHeader
 endif
